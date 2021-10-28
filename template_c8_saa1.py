@@ -32,8 +32,8 @@ bullet=pygame.Rect(200,200,5,5)
 bulletState="ready"
 YELLOW=(255,255,0)
 
-# Creating GREEN color using RGB combinations and naming it 'GREEN'
-GREEN=(0,255,0)
+# Create GREEN color using RGB combinations and name it 'GREEN'
+
 
 for i in range(enemycount): 
   enemies.append(pygame.Rect(random.randint(0,400),random.randint(0,600),20,20))
